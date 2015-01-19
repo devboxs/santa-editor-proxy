@@ -1,2 +1,4 @@
-# santa-editor-proxy
-proxy live santa sites into dev santa-editor
+# Santa Editor Proxy
+Test Santa Editor with online Santa sites.
+
+## Usage
