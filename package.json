@@ -1,0 +1,35 @@
+{
+  "name": "santa-editor-proxy",
+  "version": "0.0.1",
+  "description": "proxy live santa sites into dev santa-editor",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanShappir/santa-editor-proxy.git"
+  },
+  "keywords": [
+    "santa",
+    "editor",
+    "proxy"
+  ],
+  "author": "Dan Shappir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanShappir/santa-editor-proxy/issues"
+  },
+  "homepage": "https://github.com/DanShappir/santa-editor-proxy",
+  "dependencies": {
+    "bluebird": "^2.6.4",
+    "commander": "^2.6.0",
+    "debug": "^2.1.1",
+    "express": "^4.11.0",
+    "request-promise": "^0.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-eslint": "^3.0.0"
+  }
+}
